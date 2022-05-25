@@ -1,0 +1,142 @@
+1) :root{} //this is to make all the necessary or common colors in one place
+using css variables
+
+
+2) tint & shades gernerator website
+
+tint -light
+shades- dark
+hue-original
+
+3) Font-Family 
+para work sans
+
+poppins - heading
+
+use import
+
+
+Automatic Suggestion for css extension
+
+IntelliSense for CSS class Names in html
+
+
+Some thing of CSS3 like transition, transform, scaling are not supported by morder browser so add prefix
+-webkit
+
+4) How to make tooltip according to ending of progress bar
+
+as per width given of progress bar use left and also minus with of tooltip box
+
+so 75% bar - 4rem tooltip
+71%
+
+5) to Create a Caret
+
+.cv-progress-bar span::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid var(--helper);
+    border-color: transparent;
+    border-bottom-color: var(--helper);
+    top:-1.5rem;
+}
+
+ionicons
+https://ionic.io/ionicons/usage#desktop-outline
+
+border radius genertaor fancy
+
+
+Images inside figure tag
+
+
+font awsome unicode for content and added font-family and font-weight
+
+
+Paralex effect
+
+cssbackground-image: url('../images/folio/3.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+
+
+new tags Figure and address
+
+
+* tel:+country code for call
+
+* mailto: for email
+
+**Image optimization
+
+compres.jpg
+compress.now
+
+squoosh.app - Next gen images
+WebP - Web Picture
+
+can i use to check img format supported
+
+ADD multiple images on same tag
+
+Source
+
+
+
+***JavaScript Imp***
+
+1) use defer keyword and add script to the top head tag
+
+(Async vs Defer)p-image-not-active
+
+2) Call parent and then find which button clicked
+
+Testimony
+Swiper js
+
+
+For CDN
+https://cdnjs.com/libraries/font-awesome
+
+Without html element we can add top to go button using js
+
+How to emmed google map
+
+Animated section using api
+
+Math.trunc to elemenate decimal values
+
+
+Lazy Loading
+
+Load images when we reach on that section not at begning when site loads
+
+replace original image with less px image
+
+loading="lazy"
+
+<img class="lazy-img" data-src="images/bio-data.jpg" src="images/lazy1.jpg" alt="my cv image" loading="lazy" />
+
+Replace src with data-src using js intersectionObserver api learn
+
+** Form Validation
+
+
+formspree.io
+
+
+***JS Media Query
+
+MediaQueryList.addListener()
+
+ const widthSize =  window.match("(max-width:980px)");
+
+
+**To check contrast
+
+contrast Checker
+coolors.com
